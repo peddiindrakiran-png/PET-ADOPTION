@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Sign Up</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>🐾 Pet Adoption Center</h1>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="pets.html">Adopt</a>
+    <a href="contact.html">Contact</a>
+    <a href="login.html">Login</a>
+    <a href="signup.html" class="active login-btn">Sign Up</a>
+  </nav>
+</header>
+
+<div class="login-container">
+  <div class="login-box">
+    <h2>Create Account</h2>
+
+    <form onsubmit="return signupUser()">
+      <input type="text" id="name" placeholder="Username" required>
+      <input type="email" id="email" placeholder="Email" required>
+      <input type="password" id="password" placeholder="Password" required>
+      <input type="password" id="confirmPassword" placeholder="Confirm Password" required>
+
+      <button type="submit">Sign Up</button>
+    </form>
+
+    <p style="margin-top:15px;">Already have an account?</p>
+    <a href="login.html"><button>Login</button></a>
+
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

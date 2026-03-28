@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Adopt Pets</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>🐾 Pet Adoption Center</h1>
+ <nav>
+  <a href="index.html">Home</a>
+  <a href="pets.html">Adopt</a>
+  <a href="contact.html">Contact</a>
+  <a href="login.html">Login</a>
+</nav>
+</header>
+<section class="hero">
+  <h2>Available Pets 🐕🐈</h2>
+</section>
+<div class="search-box">
+  <input type="text" id="searchInput" placeholder="Search dog breed..." onkeyup="searchPets()">
+</div>
+
+<div class="filter">
+  <button onclick="filterPets('all')">All</button>
+  <button onclick="filterPets('dog')">Dogs</button>
+  <button onclick="filterPets('cat')">Cats</button>
+</div>
+
+<section class="pets-container">
+
+  
+
+  
+<div class="pet-card dog">
+  <img src="dog2.jpg">
+  <h3>Max</h3>
+  <p>Breed: Beagle</p>
+  <p>Age: 3 years</p>
+  <p>Vaccinated ✔</p>
+  <button onclick="adoptPet('Max')">Adopt Me</button>
+</div>
+
+<div class="pet-card dog">
+  <img src="dog3.jpg">
+  <h3>Rocky</h3>
+  <p>Breed: German Shepherd</p>
+  <p>Age: 4 years</p>
+  <p>Trained ✔</p>
+  <button onclick="adoptPet('Rocky')">Adopt Me</button>
+</div>
+
+<div class="pet-card dog">
+  <img src="dog4.jpg">
+  <h3>Charlie</h3>
+  <p>Breed: Golden Retriever</p>
+  <p>Age: 2 years</p>
+  <p>Friendly ✔</p>
+  <button onclick="adoptPet('Charlie')">Adopt Me</button>
+</div>
+
+<div class="pet-card dog">
+  <img src="dog5.jpg">
+  <h3>lucky</h3>
+  <p>Breed: Indian Street Dog</p>
+  <p>Age: 1.5 years</p>
+  <p>Healthy ✔</p>
+  <button onclick="adoptPet('Raju')">Adopt Me</button>
+</div>
+
+<div class="pet-card dog">
+  <img src="dog6.jpg">
+  <h3>Bruno</h3>
+  <p>Breed: Pug</p>
+  <p>Age: 2 years</p>
+  <p>Playful ✔</p>
+  <button onclick="adoptPet('Bruno')">Adopt Me</button>
+</div>
+
+  
+  <div class="pet-card cat">
+    <img src="cat1.jpg">
+    <h3>Luna</h3>
+    <p>Breed: Persian</p>
+    <p>Age: 1 year</p>
+    <p>Healthy ✔</p>
+    <button onclick="adoptPet('Luna')">Adopt Me</button>
+  </div>
+
+<div class="pet-card cat">
+  <img src="cat2.jpg">
+  <h3>Milo</h3>
+  <p>Breed: Siamese</p>
+  <p>Age: 2 years</p>
+  <p>Vaccinated ✔</p>
+  <button onclick="adoptPet('Milo')">Adopt Me</button>
+</div>
+
+<div class="pet-card cat">
+  <img src="cat3.jpg">
+  <h3>Simba</h3>
+  <p>Breed: Maine Coon</p>
+  <p>Age: 3 years</p>
+  <p>Fluffy ✔</p>
+  <button onclick="adoptPet('Simba')">Adopt Me</button>
+</div>
+
+<div class="pet-card cat">
+  <img src="cat4.jpg">
+  <h3>Kitty</h3>
+  <p>Breed: Tabby</p>
+  <p>Age: 1 year</p>
+  <p>Playful ✔</p>
+  <button onclick="adoptPet('Kitty')">Adopt Me</button>
+</div>
+
+<div class="pet-card cat">
+  <img src="cat5.jpg">
+  <h3>Shadow</h3>
+  <p>Breed: Black Cat</p>
+  <p>Age: 2 years</p>
+  <p>Calm ✔</p>
+  <button onclick="adoptPet('Shadow')">Adopt Me</button>
+</div>
+
+<div class="pet-card cat">
+  <img src="cat6.jpg">
+  <h3>Chinni</h3>
+  <p>Breed: Indian Domestic</p>
+  <p>Age: 1.5 years</p>
+  <p>Healthy ✔</p>
+  <button onclick="adoptPet('Chinni')">Adopt Me</button>
+</div>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
